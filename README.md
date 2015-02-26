@@ -1,7 +1,6 @@
-[![Build Status](https://travis-ci.org/skynewborn/FlatColorButton.svg?branch=master)](https://travis-ci.org/skynewborn/FlatColorButton)
-
 FlatColorButton
 ==================
+[![Build Status](https://travis-ci.org/skynewborn/FlatColorButton.svg?branch=master)](https://travis-ci.org/skynewborn/FlatColorButton)
 
 FlatColorButton is a library which simplifies the creation and use of flat-designed button widgets with pure color as the background.
 
