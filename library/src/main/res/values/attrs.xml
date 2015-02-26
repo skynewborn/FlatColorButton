@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorButton">
+        <attr name="colorDefault" format="color|reference"  />
+        <attr name="colorFocused" format="color|reference" />
+        <attr name="colorDisabled" format="color|reference" />
+
+        <attr name="borderWidth" format="dimension|reference"/>
+        <attr name="borderColor" format="color|reference" />
+        <attr name="borderColorDisabled" format="color|reference" />
+
+        <attr name="radius" format="dimension|reference" />
+        
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:drawablePadding" />
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableTop" />
+        <attr name="android:drawableRight" />
+        <attr name="android:drawableBottom" />
+    </declare-styleable>
+
+</resources> 
