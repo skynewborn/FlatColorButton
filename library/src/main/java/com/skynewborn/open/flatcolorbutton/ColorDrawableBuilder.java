@@ -107,7 +107,7 @@ public class ColorDrawableBuilder {
             states.addState(STATE_FOCUSED, focused);
         }
         states.addState(STATE_NORMAL, normal);
-        if (mDisableBackgroundColor != 0) {
+        if (mDisableBackgroundColor != 0 || mDisableBorderColor != 0) {
             Drawable disabled = getDrawableForState(mDisableBackgroundColor, false);
             states.addState(STATE_DISABLED, disabled);
         } else {
