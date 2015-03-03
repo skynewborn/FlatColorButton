@@ -54,6 +54,9 @@ N/A.
 
 If you encounter any issue while using the library, please fire an issue report.
 
+Acknowledge
+-----------
+[FancyButtons][3] by El Mehdi Sakout for the inspiration of building a StateListDrawable in code.
 
 License
 -----------
@@ -77,3 +80,4 @@ License
 
  [1]: https://raw.github.com/skynewborn/FlatColorButton/master/art/readme.png
  [2]: https://github.com/skynewborn/FlatColorButton/tree/master/demo
+ [3]: https://github.com/medyo/fancybuttons
