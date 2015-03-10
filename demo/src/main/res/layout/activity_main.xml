@@ -19,7 +19,7 @@
 
     <com.skynewborn.open.flatcolorbutton.ColorButton
         android:id="@+id/button1"
-        android:text="Color Button"
+        android:text="Color Button 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
@@ -36,7 +36,7 @@
 
     <com.skynewborn.open.flatcolorbutton.ExtendedColorButton
         android:id="@+id/button2"
-        android:text="Extended Color Button"
+        android:text="Color Button 2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
@@ -52,5 +52,23 @@
         lib:borderColor="#00bcd4"
         lib:borderColorDisabled="#727272"
         lib:radius="3dip"/>
+
+    <com.skynewborn.open.flatcolorbutton.ColorButton
+        android:id="@+id/button3"
+        android:text="Color Button 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:padding="10dip"
+        android:gravity="center"
+        android:textColor="@color/button_text_color"
+        android:textSize="20sp"
+        lib:colorDefault="@android:color/transparent"
+        lib:colorFocused="#2196f3"
+        lib:colorDisabled="@android:color/transparent"
+        lib:borderWidth="1dip"
+        lib:borderColor="#2196f3"
+        lib:borderColorDisabled="#b6b6b6"
+        lib:radius="50dip"/>
 
 </LinearLayout>
